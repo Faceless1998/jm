@@ -1,0 +1,62 @@
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    position: relative;  /* Ensure SVG is relative for positioning tooltips */
+  }
+  
+  path {
+    fill: transparent;
+    stroke: transparent;
+    stroke-miterlimit: 10;
+    stroke-width: 8;
+    cursor: pointer;
+  }
+  
+  path:hover {
+    fill: #ffffff;
+    opacity: 0.5;
+    stroke: transparent;
+    stroke-miterlimit: 10;
+    stroke-width: 8;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    font-size: 14px;
+    max-width: 200px;
+    text-align: center;
+    z-index: 10; /* Ensures it's above all other elements */
+    transform: translateX(-50%); /* Centers horizontally */
+  }
+  
+  .tooltip.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-100%) scale(1); /* Adjust Y for positioning */
+  }
+  
+  @media (max-width: 600px) {
+    .tooltip {
+      font-size: 12px;
+      max-width: 150px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .tooltip {
+      font-size: 10px;
+      max-width: 130px;
+      padding: 6px;
+    }
+  }
+  

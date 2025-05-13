@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    background: url("../assets/flatironbuilding.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    color: black;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .footer {
+    font-size: 14px;
+  }
+  
+  .right {
+    flex: 1;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .formContainer {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .signupTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+
+  
+  .orText {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.loginButton:hover{
+    background: rgba(0, 0, 0, 0.708);
+    transition: 0.2s;
+}
+
+  .termsText {
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .termsText a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .errorMessage {
+    border: 0.5px rgba(0, 0, 0, 0.237) solid;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .successMessage {
+    border: 0.5px rgba(0, 0, 0, 0.31) solid;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    color: green;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .errorInput {
+    border: 2px solid red;
+  }
+  

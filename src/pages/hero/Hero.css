@@ -1,0 +1,125 @@
+.hero-container {
+  background-image: url('./../../assets/hero-bg.jpg');  /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-inner {
+  width: 100%;
+}
+
+.hero-details {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);  /* Slightly darker for more contrast */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-details:hover {
+  transform: translateY(-10px);  /* Subtle hover effect for the container */
+}
+
+.hero-details h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.hero-details h1 span {
+  color: #fff!important;  /* Accent color */
+  text-transform: uppercase;
+}
+
+.hero-details p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: white;
+}
+
+.hero-btn-box {
+  margin-top: 20px;
+}
+
+.hero-btn-cta {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #f39c12;  /* Button background */
+  padding: 18px 35px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.hero-btn-cta:hover {
+  background-color: #e67e22;  /* Darker shade on hover */
+  transform: scale(1.1);  /* Slight grow effect on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn-cta:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 80px 0;
+  }
+
+  .hero-details {
+    padding: 25px;
+  }
+
+  .hero-details h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-details p {
+    font-size: 1.1rem;
+  }
+
+  .hero-btn-cta {
+    font-size: 1rem;
+    padding: 14px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-container {
+    padding: 60px 0;
+  }
+
+  .hero-details h1 {
+    font-size: 2rem;
+  }
+
+  .hero-details p {
+    font-size: 1rem;
+  }
+
+  .hero-btn-cta {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+}

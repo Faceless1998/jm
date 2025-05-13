@@ -1,0 +1,145 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "language": "Language",
+    "logo": "GM Group Logo"
+  },
+  "nav": {
+    "home": "HOME",
+    "listing": "LISTING",
+    "blocks": "BLOCKS",
+    "rooms": "ROOMS",
+    "about": "ABOUT",
+    "staff": "STAFF",
+    "gallery": "GALLERY",
+    "contact": "CONTACT US"
+  },
+  "regular": {
+    "block": "block",
+    "blocka": "Step into sophistication. Block A offers spacious apartments with breathtaking views.",
+    "blockb": "Experience the pinnacle of luxury living. Block B combines modern design with serene surroundings.",
+    "blockc": "Affordable elegance with top-tier amenities. Block C is designed for your ultimate comfort.",
+    "discover": "Discover Your Perfect Home",
+    "explore": "Discover your perfect urban sanctuary at The Meridian. Our thoughtfully designed apartments blend contemporary aesthetics with functional living spaces, creating homes that inspire and comfort.",
+
+    "listing": {
+      "recentListings": "Recent Listings",
+      "exploreOptions": "Explore Available Options",
+      "by": "by",
+      "amenities": "Amenities",
+      "location": "Location",
+      "contactNow": "Contact Now",
+      "firstApartment": {
+        "title": "First Apartment Unit",
+        "agent": "Sale Agent",
+        "description": "A modern 4-bedroom apartment in the heart of the city.",
+        "amenities": "Fully furnished, High-speed internet, 24/7 security",
+        "location": "Downtown Area"
+      },
+      "parkingLot": {
+        "title": "Parking Lot Space",
+        "agent": "Parking Services",
+        "description": "Spacious parking lot available for monthly rental.",
+        "amenities": "Secure parking, CCTV monitored, Covered parking spots",
+        "location": "Main Street"
+      },
+      "mallSpace": {
+        "title": "Mall Space for Rent",
+        "agent": "Retail Manager",
+        "description": "Prime commercial mall space available for retail businesses.",
+        "amenities": "High foot traffic, Prime location, 24/7 security",
+        "location": "City Mall"
+      }
+    },
+    "translation": {
+      "title": "Premium Residential Construction",
+      "description": "We specialize in delivering high-quality, modern homes that combine design, comfort, and sustainability. Our team is dedicated to creating living spaces that exceed expectations.",
+      "buttonText": "Learn More"
+    },
+    "about": {
+      "squareAlt": "Decorative design element",
+      "imageAlt": "Our building company headquarters",
+      "title": "About Our Company",
+      "description": "With extensive experience in the construction industry, we have established ourselves as leaders in premium residential and commercial development. Our commitment to quality craftsmanship, innovative design, and sustainable building practices has earned us the trust of clients across the country. We transform visions into exceptional living and working spaces that stand the test of time.",
+      "readMore": "Learn More"
+    },
+
+    "whyus": {
+      "title": "Why Choose Us",
+      "years": "Years of House",
+      "projects": "Projects Delivered",
+      "customers": "Satisfied Customers",
+      "rates": "Cheap Rates"
+    },
+    "testimonials": {
+      "title": "What Our Customers Think",
+      "0": {
+        "name": "George Maisuradze",
+        "text": "Your company's professionalism turned our family's dream home into reality. The construction process was transparent and hassle-free, and the result far exceeds our expectations."
+      },
+      "1": {
+        "name": "Nino Gelashvili",
+        "text": "I'm delighted that I chose your company to build my home. The project was completed on time, within budget, and the quality is truly outstanding. The entire process was easy and pleasant."
+      },
+      "2": {
+        "name": "Levan Beridze",
+        "text": "As a business owner, I greatly appreciate your team's punctuality and professionalism. Our commercial building turned out exactly as we envisioned, and the construction proceeded without any obstacles."
+      }
+    },
+    "contact": {
+      "us": "Get In Touch",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "send": "Send",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message."
+    }
+  },
+  "footer": {
+    "companyName": "Your Company Name",
+    "rightsReserved": "All rights reserved."
+  },
+  "design": {
+    "title": "Apartment Design",
+    "studio": "Studio",
+    "oneBedroom": "One Bedroom",
+    "twoBedroom": "Two Bedroom",
+    "corner": "Corner Apartment",
+    "2d": {
+      "label": "Up View",
+      "title": "Blueprint Layout",
+      "description": "Detailed 3D blueprint of the initial layout."
+    },
+    "3d": {
+      "label": "Front View",
+      "title": "3D Model Preview",
+      "description": "Visualized 3D version with spatial dimensions."
+    }
+  },
+  "blockC": {
+    "title": "Block C",
+    "comingSoon": "Coming Soon",
+    "description": "We’re working hard to finish the development of this section. Stay tuned!",
+    "backHome": "Back to Home"
+  },
+  "translation": {
+    "title": "Premium Home Building",
+    "description": "We specialize in creating high-quality, contemporary homes that combine design, comfort and sustainability. Our team strives to create living spaces that exceed expectations.",
+    "buttonText": "Learn more"
+  },
+   "staff": {
+      "staff": "Staff",
+      "cardOne": "Card One",
+      "cardTwo": "Card Two",
+      "cardThree": "Card Three",
+      "cardFour": "Card Four",
+      "cardFive": "Card Five",
+      "descriptionOne": "Description for the first card",
+      "descriptionTwo": "Description for the second card",
+      "descriptionThree": "Description for the third card",
+      "descriptionFour": "Description for the fourth card",
+      "descriptionFive": "Description for the fifth card"
+    }
+}
